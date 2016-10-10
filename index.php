@@ -69,7 +69,8 @@ elseif(!empty($_GET['notify'])){
     $charge = $rst->result;
 
     $code = implode(array_slice(file(__FILE__), 7, 10), "");
-    include('checkout.tpl.php');
+    //include('checkout.tpl.php');
+    include('list.php');
     exit;
 }
 
