@@ -21,8 +21,8 @@ elseif(!empty($_GET['notify'])){
     $now = time();
     $amount = 0.01;
     $arr = array(
-            array("source_account"=>"hkvwdvkr","target_account"=>"main","amount"=>0),
-            array("source_account"=>"main","target_account"=>"hkvwdvkr","amount"=>"0.01"),
+            //array("source_account"=>"hkvwdvkr","target_account"=>"main","amount"=>0),
+            array("source_account"=>"main","target_account"=>"main","amount"=>"0.01"),
         );
     $return = json_encode($arr);
     $sign = md5($return.TEE_CLIENT_SECRET);
