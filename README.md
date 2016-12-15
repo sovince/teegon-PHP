@@ -19,7 +19,7 @@ order_no=7baf7cd34f71733ba1946fc6   //
 pay_time=1477580832                 //支付时间
 payment_no=2016102723064902010072479276   //
 real_amount=0.01                    //真实金额（扣去费率)
-sign=101C1CE110CCCC61A553028BA1F54AA1   //j验签
+sign=101C1CE110CCCC61A553028BA1F54AA1   //验签
 status=                             //
 timestamp=1477580832                //支付时间
 ```
