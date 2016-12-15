@@ -1,4 +1,4 @@
-# 天工收银 SDK
+# 天工收银 
 #####  天工收银目前支持 alipay  wxpay  wxpay_jsapi  chinapay_b2c  chinapay alipay_wap
 #####  其中alipay_wap 没有return_url  这个受限于支付宝  wxpay_jsapi 使用curl方式提交交易数据 详情在相应代码中
 
@@ -44,7 +44,7 @@ JAVA:	https://github.com/RoshanGH/Teegon-JavaSDK
 下面来实例介绍：
 （以PHP为例不管你用的是什么语言请仔细看调用方式是一样的）
 ######PC端：
-包含： `支付包` `微信支付` `银联快捷` `银联网银` alipay  wxpay   chinapay   chinapay_b2c
+包含： `支付宝` `微信支付` `银联快捷` `银联网银` alipay  wxpay   chinapay   chinapay_b2c
 ```PHP
 <?php
 /**
